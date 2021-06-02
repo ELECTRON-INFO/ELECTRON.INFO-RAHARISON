@@ -1,0 +1,212 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <title>Accueil</title>
+    <link rel="stylesheet" type="text/css"  href="Styles.css"/>
+    <link rel="stylesheet" type="text/css"  href="./assets/css/bootstrap.css"/>
+     <link rel="stylesheet" type="text/css" href="_navbar.scss"/> 
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap"/>
+    
+  </head>
+  <body>
+  <!-- Messenger Plug-in Discussion Code -->
+    <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v10.0'
+          });
+        };
+
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      </script>
+
+      <!-- Your Plug-in Discussion code -->
+      <div class="fb-customerchat"
+        attribution="biz_inbox"
+        page_id="110716957858984">
+      </div>
+<div class="lignes">
+<!--creation  un menu avec des liens interne-->
+<nav>
+    <!--il faut mettre un padding-->
+    <ul>
+        <li id="logo"><a href="#">ELECTRON-INFO</a></li>
+            <li class="menu-Accueil"><a href="index.html">ACCUEIL</a>
+        	<ul class="submenu">
+            <li><a href="https://www.planete-composants.com/" 
+              target="_blank" class="nav-item active">achats composants</a></li>
+            <li><a href="https://www.mid-electronique.com/" 
+              target="_blank" class="nav-item active">Partenaires</a></li>
+         </ul>
+        </li>     
+        <li class="menu-Achats"><a href="Articles.html">Produits</a>
+            <ul class="submenu">  
+                <li><a href="Galeries.html">Nos Produits</a></li>
+                <li><a href="Produits.html">Meilleurs ventes</a></li>
+            </ul> 
+        </li>      
+        <li class="menu-Partenaire"><a href="Articles.html">Articles</a>
+            <ul class="submenu">  
+              <li><a href="Articles.html">Meilleurs Articles</a></li>
+              <li><a href="Galeries.html">Produits Locaux</a></li>
+            </ul> 
+        </li>
+    </ul>
+</nav> 
+</div>
+<header>  
+	 <!--creation des liens interne avec tous les fichiers--> 
+   <h1><span>ELCTRON-INFO</span></h1>
+<h2>Depannage en electroniques et informatiques</h2>
+<div class="container">
+  <div class="row elements">
+    <div class="container-first">
+    <h3><span><i class="fa fa-user">: Bonjour, inscrivez-vous:</i></span></h3>
+    <div id="button">
+      <form id="form">
+      <input placeholder="E-mail*:">
+      <input placeholder="name*:">
+      <div class="form-group">
+        <span><label for="input" class="col-sm-2 control-label">Mot de passe:</label></span>
+        
+          <input type="password" name="" id="input" class="form-control" required="required" title="">
+          <span><button class="btn btn-success">Connexion</button></span>
+      </form>  
+        </div>
+      </div>
+        <div class="col-6 col-md-3">
+          <div class="clickEvent">
+          <div id="line"></div>   
+          <div class="inputEvent">
+          <span><label for="input">Bonjour à tous </label></span>
+          <input type="text" id="input">
+          <div id="result_add_option">
+          <span><button class="btn btn-success">chercher un produit</button></span> 
+        </div> 
+  </div>
+</div>
+<div class="col-sm-10">
+   <div id="logo">
+
+    <img src="../IMAGES/logo.jpg" alt="ELECTRON-INFO"/> 
+  </div> 
+
+</div>  
+</header> 
+
+    <p class="definition">
+      <h3> chers clients </h3>
+    </p>
+<!--creation des liens interne-->
+
+ <h2> les RESSOURCES HUMAINES et les Valeurs de notre société</h2>
+ 
+ <h3>Nos valeurs :</h3>
+ <dl>Voici les quatre valeurs qui constituent le socle de notre culture :</dl>
+ <ol>
+ <li>Responsabilité</li>
+ <li>Transparence</li>
+ <li>Convivialité</li>
+ <li>Sens du partage</li>
+</ol>
+<ol>
+ <h3>Responsabilité :</h3>
+ 
+ <li> Une chaîne de management autonome à tous les niveaux ; des collaborateurs impliqués dans la réalisation de leur travail quotidien et dans le fonctionnement du réseau.</li>
+ 
+ <h3>Transparence :</h3>
+ 
+ <li>les stratégies et l'organisation sont clairement exprimées et communiquées au travers d'un Projet Stratégique Partagé annuel. Le positionnement et les missions de chacun sont clairement définis et connus. Notre démarche Qualité est reconnue et claire et notre communication est dense et régulière en interne et en externe...</li>
+ 
+ <h3>Convivialité :</h3>
+ <li> l'entreprise favorise les échanges et les rencontres en interne. Une relation privilégiée et de proximité est établie avec les clients et les fournisseurs.</li>
+ 
+ <h3>Sens du partage :</h3>
+ <li>le réseau favorise les échanges dans l'activité, la capitalisation de la connaissance, le partage des compétences et de l'expérience.</li>
+ 
+ <li>L'intégration chez CCCPE(conception et câblage des cartes prototypes) :</li>
+ « Parce que l'arrivée de tout collaborateur ne s'improvise pas, l'intégration est une phase décisive qui requiert, pour chaque nouvel employé, un plan d'actions individualisé. Notre objectif est de familiariser l'employé avec la culture et les procédures "CCCP Electronic" et de l'intégrer dans son poste de travail ou sa fonction dans les meilleures conditions possibles »
+ 
+ <li>La formation</li>
+ L'Académie de notre entreprise , c'est plus de 20 modules de formation interne et l'accès à des modules de formation continue, packagés et adaptés à nos besoins (gestion, technique, commercial ...)
+ Le réseau favorise les échanges en particulier, avec notre outil de de capitalisation de la connaissance
+
+ <li>Les perspectives d'évolution :</li>
+ <li>CCCP Electronic offre des perspectives d'évolution</li>
+ <li>CCCP Electronic dispose d'un référentiel métier ; chaque fiche métier présente les évolutions et les passerelles possibles vers les autres métiers</li>
+ <li>Les entretiens individuels annuels permettent aux collaborateurs de s'exprimer sur leurs souhaits d'évolutions</li>
+ <li>  L'appartenance de "CCCP Electronic", à un groupe international, offre de nombreuses perspectives d'évolutions en France et en Europe</li>
+ <li>L'accompagnement personnalisé (tutorat, intégration, formation interne) facilite ces évolutions</li>
+</ol>
+
+ <div class="imagesPrestations">
+<!--l'element <a> sert à créer des liens internes ou externes--> 
+ <div class="block">
+	<a href="https://www.radio.fr/s/paradisagasy"target="_blank">Ecoutez la Radio</a>
+  <br/>
+ 
+	<a href="https://wordpress.com/fr/refer-a-friend/xp4WALKSKJWgPR3BLv3b/"target="_blank">Wordpress</a>
+  <br/>
+  
+	<a href="http://www.aserti-electronic.fr/"target="_blank">Depannage electroniques</a>
+  <br/>
+  
+	<a href="https://www.pierre-giraud.com/produit"target="_blank">Programmation</a>
+</div>
+</div>
+
+<p class="definition">
+<h2>l'importance de la decouverte</h2>
+  
+        la commercialisation des composants sur notre site est tout simplement, et très pratique pour nos clients
+	 </p>
+
+ <h3>les différentes guides  sont disponibles</h3>
+
+<!-- pour créer la liaison entre javascript et le fichier html il faut mettre le lien entre <script src=""> et </script>-->
+
+<ul class="medias">
+  <li class="bulle"><img src="ressources/fb.svg" alt=""> </li>
+  <li class="bulle"><img src="ressources/insta.svg" alt=""> </li>
+  <li class="bulle"><img src="ressources/yt.svg" alt=""> </li>
+  <li class="bulle"><img src="ressources/fb.svg" alt=""> </li>
+  </ul>
+<footer>
+     <ul>
+        <li><a href="contact.html"><h2>contact</h2></a></li>
+        <p>Si vous êtes interessé par nos services envoyez-nous un message par: <a href="mailto:lebec.electroniques@outlook.fr">e-mail</a></p>
+      </ul>
+    <div id="icons">
+      <form id="buton">
+        <input placeholder="Nom*:">
+        <input placeholder="Prenom*:">
+        <input placeholder="date de naissance*:">
+        <input placeholder="Telephone*:">
+        <input placeholder="E-mail*:">
+        <textarea placeholder="Vos commentaires ici..."></textarea>
+        <button>Envoyer</button>            
+      </form>
+    </div>        
+</footer>	
+
+    <script src="./index.js" type="text/javascript"></script>
+    <script src="./jquery.min.js" type="text/javascrpt"></script> 
+    <script src="./script.js" type="text/javascript"></script>
+    <script src="./bootstrap.js" type="text/javascript"></script>
+    <noscript>
+      <h3>Il faut activer le javascript pour lire le fichier</h3>
+    </noscript> 
+  </body>
+  
+</html>
